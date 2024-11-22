@@ -1,0 +1,19 @@
+#React dependancies
+
+npx create-react-app prostate-cancer-app
+cd prostate-cancer-app
+npm install axios react-bootstrap bootstrap
+
+
+#install the required libraries
+
+pip install fastapi uvicorn opencv-python pillow tensorflow
+
+
+#Run the server
+
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
+
+
+Flask dependancies
+pip install flask numpy tensorflow opencv-python pillow
